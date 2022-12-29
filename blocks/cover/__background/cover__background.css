@@ -1,0 +1,8 @@
+.cover__background {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: cover;
+}
