@@ -8,8 +8,14 @@
     }
 }
 
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .header_position {
+        padding: 16px 0 0;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .header_position {
-        padding: 16px 16px 0;
+        padding: 16px 0 0;
     }
 }

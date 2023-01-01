@@ -4,9 +4,18 @@
     justify-content: flex-end;
 }
 
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .place__website {
+        max-width: 460px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .place__website {
-        max-width: 288px;
         width: 100%;
+        padding: 0 16px;
+        box-sizing: border-box;
     }
 }

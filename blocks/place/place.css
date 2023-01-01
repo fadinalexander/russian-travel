@@ -33,11 +33,24 @@
     }
 }
 
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .place {
+        margin: 0;
+        margin-bottom: 50px;
+        max-width: 767px;
+        column-gap: 32px;
+        row-gap: 32px;
+        grid-template-columns: repeat(auto-fit, minmax(420px, auto));
+        grid-template-rows: repeat(auto-fit, minmax(35px, auto));
+        justify-items: center;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .place {
         margin: 0;
         margin-bottom: 50px;
-        max-width: 320px;
+        max-width: 425px;
         column-gap: 32px;
         row-gap: 32px;
         grid-template-columns: repeat(auto-fit, minmax(320px, auto));

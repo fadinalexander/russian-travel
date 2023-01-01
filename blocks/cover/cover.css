@@ -25,6 +25,7 @@
     .cover {
         margin: calc(66px - 26px) auto 64px;
         max-width: 425px;
-        max-height: 265px;
+        width: 100vw;
+        height: calc(100vw / 1.6);
     }
 }

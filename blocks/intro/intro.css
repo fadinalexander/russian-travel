@@ -22,9 +22,16 @@
     }
 }
 
+@media screen and (min-width: 426px) and (max-width: 767px) {
+    .intro {
+        max-width: 767px;
+        margin-top: 64px;
+    }
+}
+
 @media screen and (max-width: 425px) {
     .intro {
-        max-width: 288px;
+        max-width: 425px;
         margin-top: 64px;
     }
 }
