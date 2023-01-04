@@ -27,7 +27,7 @@
     .place {
         margin: 0 24px;
         margin-bottom: 73px;
-        max-width: 720px;
+        max-width: 1023px;
         column-gap: 28px;
         grid-template-columns: repeat(auto-fit, minmax(340px, auto));        
     }

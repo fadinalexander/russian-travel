@@ -26,19 +26,11 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
     .place__title {
         font-size: 32px;
         line-height: 35px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    .place__title {
-        font-size: 32px;
-        line-height: 35px;
+        max-width: 484px;
         width: 100%;
         padding: 0 16px;
         box-sizing: border-box;
