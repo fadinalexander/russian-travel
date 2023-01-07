@@ -4,16 +4,17 @@
     font-weight: 900;
     font-size: 72px;
     line-height: 76px;
-    min-width: 560px;
+    max-width: 560px;
     text-align: center;
-    margin: 0 312px;
+    margin: 0 auto;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 600px) {
     .cover__title {
         font-size: 32px;
         line-height: 35px;
-        margin: 0 16px;
-        min-width: 288px;
+        margin: 0 auto;
+        max-width: 288px;
     }
 }

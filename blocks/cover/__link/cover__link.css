@@ -1,8 +1,11 @@
 .cover__link {
+    display: flex;
     position: absolute;
-    left: 0;
-    top: 0;
+    flex-direction: column;
+    justify-content: center;
     z-index: 4;
     height: 100%;
     width: 100%;
+    text-decoration: none;
+    color: #ffffff;
 }

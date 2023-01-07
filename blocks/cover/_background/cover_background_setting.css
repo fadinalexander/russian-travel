@@ -1,4 +1,4 @@
-.cover_background {
+.cover_background_setting {
     min-height: 740px;
     max-width: 1184px;
     margin: 92px 48px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (min-width:1024px) and (max-width: 1279px) {
-    .cover_background {
+    .cover_background_setting {
         margin: 92px 0;
         max-width: 100%;
         min-height: calc(100vw/1.6);
@@ -16,14 +16,14 @@
 }
 
 @media screen and (min-width:768px) and (max-width: 1023px) {
-    .cover_background {
+    .cover_background_setting {
         margin: 90px 0 88px;
         min-height: calc(100vw/1.6);
     }
 }
 
 @media screen and (max-width: 767px) {
-    .cover_background {
+    .cover_background_setting {
         margin: 66px 0 64px;
         min-height: calc(100vw/1.6);
     }
