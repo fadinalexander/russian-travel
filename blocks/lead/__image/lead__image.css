@@ -1,6 +1,6 @@
 .lead__image {
     display: flex;
-    width: 100%;
+    max-width: 984px;
     object-fit: cover;
     box-sizing: border-box;
 }
@@ -8,6 +8,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .lead__image {
         max-width: 1279px;
+        width: 100%;
         height: calc((100vw - 96px) / 1.6);
     }
 }

@@ -44,7 +44,7 @@
 @import url(../blocks/place/__paragraph-position/place__paragraph-position.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__background/cover__background.css);
+@import url(../blocks/cover/_background/cover_background.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);
