@@ -12,6 +12,10 @@
     margin-bottom: 26px;
 }
 
+.place__paragraph:first-of-type:last-child {
+    margin-bottom: 0;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
     .place__paragraph {
         max-width: 456px;

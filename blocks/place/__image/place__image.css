@@ -17,15 +17,16 @@
     }
 }
 
-@media screen and (min-width: 426px) and (max-width: 767px) {
+@media screen and (min-width: 458px) and (max-width: 767px) {
     .place__image {
         max-width: 457px;
-        width: 100vw;
-        max-height: 457px;
+        width: 100%;
+        object-fit: contain;
+        
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 457px) {
     .place__image {
         width: 100vw;
         height: 100vw;

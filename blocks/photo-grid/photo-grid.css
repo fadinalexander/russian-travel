@@ -3,8 +3,6 @@
     margin: 0 48px;
     box-sizing: border-box;
     margin-top: 92px;
-    max-width: 1184px;
-    min-height: 671px;
     grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
     grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
     gap: 16px;

@@ -5,49 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="./pages/index.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title lang="en">Russian travel</title>
+    <title>Путешествия по России</title>
     <meta name="description" content="#">
     <meta name="keywords" content="#">
     <meta name="author" content="Fadin Alexander">
 </head>
 <body>
     <div class="page">
-        <header class="header header_position">
+        <header class="header header_position_padding">
             <img class="header__logo" src="./images/header-logo.svg" alt="лого Россия">
-            <div>
-                <a class="header__lang-link header__lang-link_text-decoration_underline" href="#">Ru</a>
+            <div class="header__place-lang-link">
+                <a class="header__lang-link header__lang-link_active" href="#">Ru</a>
                 <a class="header__lang-link" href="#">En</a>   
             </div>
         </header>
         <main class="content">
             <section class="lead">
-                <h1 class="lead__title">Путешествия по России</h1>
-                <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
-                <picture>
+                <h1 class="lead__title">Путешествия по&nbsp;России</h1>
+                <p class="lead__subtitle">Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.</p>
+                <picture class="lead__picture">
                     <source srcset="./images/lead-polka_768px.png" media="(max-width: 768px)">
                     <source srcset="./images/lead-polka_320px.png" media="(max-width: 425px)">
-                    <img class="lead__image" src="./images/lead-polka.jpg" alt="Изображение плацкарта в вагоне со спящим человеком">
+                    <figure class="lead__figure">
+                        <img class="lead__image"
+                        src="./images/lead-polka.jpg"
+                        alt="Изображение плацкарта в вагоне со спящим человеком">
+                        <figcaption class="lead__caption">ваша полка&nbsp;&mdash; верхняя</figcaption>
+                    </figure>
                 </picture>
-                <p class="lead__caption">ваша полка - верхняя</p>
             </section>
             <section class="intro">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
+                <h2 class="intro__title">Чего мы&nbsp;там не&nbsp;видели?</h2>
                 <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36% планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов. Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые интересные места, достойные вашего отпуска.</p>
-                <ul class="intro__list-ul">
-                    <li class="intro__list">Часовых поясов 
-                        <span class="intro__list intro__list_font-weight_span">11</span>
+                <ul class="intro__ul">
+                    <li class="intro__list-element">Часовых поясов 
+                        <span class="intro__span">11</span>
                     </li>
-                    <li class="intro__list">Объектов природного наследия ЮНЕСКО 
-                        <span class="intro__list intro__list_font-weight_span">12</span>
+                    <li class="intro__list-element">Объектов природного наследия ЮНЕСКО 
+                        <span class="intro__span">12</span>
                     </li>
-                    <li class="intro__list">Объектов культурного наследия ЮНЕСКО 
-                        <span class="intro__list intro__list_font-weight_span">16</span>
+                    <li class="intro__list-element">Объектов культурного наследия ЮНЕСКО 
+                        <span class="intro__span">16</span>
                     </li>
-                    <li class="intro__list">Природных заповедников 
-                        <span class="intro__list intro__list_font-weight_span">105</span>
+                    <li class="intro__list-element">Природных заповедников 
+                        <span class="intro__span">105</span>
                     </li>
-                    <li class="intro__list">Аэропортов 
-                        <span class="intro__list intro__list_font-weight_span">241</span>
+                    <li class="intro__list-element">Аэропортов 
+                        <span class="intro__span">241</span>
                     </li>
                 </ul>
             </section>
@@ -66,11 +70,11 @@
                 <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="пейзаж гор">
             </section>
             <section class="places places_position">
-                <ul class="places">
+                <ul class="places__ul">
                     <li class="place">
                         <h2 class="place__title">Куршская коса</h2>
                         <div class="place__website">
-                            <h3 class="place__url-heading">URL</h3>
+                            <p class="place__url-heading">URL</p>
                             <a class="place__link" target="_blank" 
                                 href="http://park-kosa.ru">park-kosa.ru
                             </a>
@@ -95,7 +99,7 @@
                     <li class="place">
                         <h2 class="place__title">Кольский</h2>
                         <div class="place__website">
-                            <h3 class="place__url-heading">URL</h3>
+                            <p class="place__url-heading">URL</p>
                             <a class="place__link" target="_blank" 
                                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy">National Geographic</a>
                         </div>
@@ -120,7 +124,7 @@
                     <li class="place">
                         <h2 class="place__title">Алтай</h2>
                         <div class="place__website">
-                            <h3 class="place__url-heading">URL</h3>
+                            <p class="place__url-heading">URL</p>
                             <a class="place__link" target="_blank" 
                                  href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ">YouTube</a>
                         </div>
@@ -136,7 +140,7 @@
                     <li class="place">
                         <h2 class="place__title">Зимний Байкал</h2>
                         <div class="place__website">
-                            <h3 class="place__url-heading">URL</h3>
+                            <p class="place__url-heading">URL</p>
                             <a class="place__link" target="_blank" 
                                 href="https://vk.com/baikalmile">https://vk.com/baikalmile</a>
                         </div>
@@ -153,7 +157,7 @@
                     <li class="place">
                         <h2 class="place__title">Карелия</h2>
                         <div class="place__website">
-                            <h3 class="place__url-heading">URL</h3>
+                            <p class="place__url-heading">URL</p>
                             <a class="place__link" target="_blank" 
                                  href="http://vodlozero.ru">http://vodlozero.ru/</a>
                             </div>
@@ -164,17 +168,16 @@
                             <p class="place__paragraph">Сибирь заканчивается не на Урале, а в Карелии: образующая тайгу сибирская лиственница не растёт западнее Водлозера. Зато здесь она вымахивает на 30 метров — леса карельских национальных парков из-за непроходимых болот никогда не знали топора. Некоторым соснам уже больше чем полтысячелетия. Прикоснитесь к живому существу, видевшему солнце раньше, чем увидал его Иван Грозный. 
                                 В девственном лесу на сотню километров не встретишь тропы. А на редких тропинках деревья 
                                 в паре метров от земли помечены медвежьими когтями. Чтобы все знали, кто тут хозяин.</p>
-                            <p class="place__paragraph"></p>
                         </div>
                     </li>
                 </ul>
             </section>
-            <section class="cover">
-                <div class="cover__background cover__position-center">
-                        <h2 class="cover__title"><a class="cover__title-link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala">До Байкала «на собаках»</a></h2>
-                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
-                </div>
-                <div class="cover__overlay"></div>
+            <section class="cover cover__background">
+                <a class="cover__link" target="_blank"
+                href="https://stampsy.com/na-elektrichkakh-do-baikala"></a>
+                    <h2 class="cover__title">До&nbsp;Байкала &laquo;на&nbsp;собаках&raquo;</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
+                
             </section>
         </main>
         <footer class="footer">
