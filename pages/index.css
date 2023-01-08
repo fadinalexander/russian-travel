@@ -8,7 +8,7 @@
 @import url(../blocks/header/_position/header_position_padding.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__place-lang-link/header__place-lang-link.css);
-@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__li-position/header__li-position.css);
 @import url(../blocks/header/lang-link-decoration/header__land-link-decoration.css);
 @import url(../blocks/header/lang-link-decoration/_active/header__lang-link-decoration_active.css);
 

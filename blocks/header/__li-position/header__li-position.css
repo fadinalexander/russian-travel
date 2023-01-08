@@ -1,0 +1,7 @@
+.header__li-position {
+    margin-right: 18px;
+}
+
+.header__li-position:last-of-type {
+    margin-right: 0;
+}
