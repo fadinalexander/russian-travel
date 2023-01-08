@@ -10,7 +10,7 @@
 @import url(../blocks/header/__place-lang-link/header__place-lang-link.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/lang-link-decoration/header__land-link-decoration.css);
-@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+@import url(../blocks/header/lang-link-decoration/_active/header__lang-link-decoration_active.css);
 
 @import url(../blocks/content/content.css);
 
